@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+#navbar{
+    padding:1rem 4rem;
+    width: 100%;
+    overflow: auto;
+    background-color: #f8f9fa;
+}
+#navbar .left{
+    float: left;
+    margin-top: 10px;
+}
+#navbar .right{
+    float: right;
+}
+#navbar .left a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000E6;
+}
+#navbar .right button{
+    background-color: #0d6efd;
+    font-size: 16px;
+    color: #fff;
+    padding: 13px 12px;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+}
+#main{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 14rem 0;
+    margin: auto;
+}
+#main .top h1{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+#main .bottom{
+    width: 50%;
+    margin: auto;
+}
+#main .bottom input{
+    padding: 20px 30px;
+    font-size: 1.25rem;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#main .bottom button{
+    color: #fff;
+    background-color: #0d6dfdb4;
+    padding: 1.4rem 1.7rem;
+    font-size: 18px;
+    border: 1px solid #0d6dfdab;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#body{
+    padding: 8rem 4rem;
+    background-color: #f8f9fa;
+    width: 100%;
+    overflow: auto;
+}
+#body .left{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+#body .left i{
+    color:#0d6efd;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+#body .left h3{
+    color: #212529;
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+#body .left p{
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.7rem;
+    margin-top: 1.5rem;
+}
+#photos{
+    overflow: auto;
+}
+#photos .top{
+    width: 100%;
+    float: left;
+}
+#photos .left{
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding:10rem;
+}
+#photos .left h2{
+    color: #212529;
+    font-size: 32px;
+}
+#photos .left p{
+    color: #212529;
+    font-size: 20px;
+} 
+#photos .right{
+    width: 50%;
+    float: left;
+}
+#photos .right img{
+    width: 100%;
+}
+#people{
+    padding: 6rem 4rem;
+    background-color: #f8f9fa;
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}
+#people .top h2{
+    font-size: 32px;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#people .bottom .person{
+    width: calc(100%/3);
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+#people .bottom .human-img img{
+    width: 45%;
+    border-radius:50% ;
+}
+#people .bottom .human-text h5{
+    font-size: 20px;
+    color: #212529;
+}
+#people .bottom .human-text p{
+    font-size: 16px;
+    color: #212529;
+}
+#submit{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+#submit .top h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+#submit{
+    padding:5rem 4rem;
+}
+#submit .bottom{
+    width: 50%;
+    margin: auto;
+}
+#submit .bottom input{
+    padding: 20px 30px;
+    font-size: 1.25rem;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#submit .bottom button{
+    color: #fff;
+    background-color: #0d6dfdb4;
+    padding: 1.4rem 1.7rem;
+    font-size: 18px;
+    border: 1px solid #0d6dfdab;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#footer{
+    padding:4rem;
+    width: 100%;
+}
+#footer .left a{
+    color: #0d6efd;
+    font-size: 16px;
+    padding-right: 20px;
+}
+#footer .left p{
+    color: #6c757d;
+    margin-top: 15px;
+}
+#footer .right{
+    float: right;
+}
+#footer .right i{
+    font-size: 30px;
+    color: #0d6dfdb4;
+    padding-left: 20px;
+}
